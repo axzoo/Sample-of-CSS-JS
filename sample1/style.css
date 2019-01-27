@@ -1,0 +1,23 @@
+.toscew
+{
+	background-color:grey;
+	position:absolute;
+	top:190px;
+	left:0px;
+	height:0px;
+	color:white;
+	font-family:arial;
+	-ms-transform:skewY(20deg); /*IE9*/
+	-webit-transform:skewY(20deg); /*safari*/
+	transform:skewY(4deg); 
+}
+	
+.tounscew
+{
+	-ms-transform:skewY(-4deg); /*IE9*/
+	-webit-transform:skewY(-4deg); /*safari*/
+	transform:skewY(4deg); 
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:20px;
+}
