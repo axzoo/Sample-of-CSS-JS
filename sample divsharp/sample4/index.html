@@ -3,25 +3,25 @@
 <head>
 	<meta charset="utf-8">
 	<title>Razor-Blade Div Shapes</title>
-	<link rel="stylesheet" href="style.css">
+	
 	<style>
 	body{
 	margin:0;
 }
 
-.slantedDivA
+.ccc
 {
       position: relative;
       width: 100%;
       height: auto;
-      background: rgba(40, 40, 40, 0.5);
+      background: rgba(40, 40, 70, 0.5);
       box-sizing: border-box;
-      padding: 30px;
+      padding: 250px;
       color: #fff;
       margin-bottom: 200px;
 }
 
-.slantedDivA:after
+.ccc:after
 {
       position: absolute;
       width: 100%;
@@ -36,11 +36,23 @@
       transform-origin: top left;
       transform: skewY(4deg);
 }﻿
+
+.bbb
+{
+	-ms-transform:skewY(-4deg); /*IE9*/
+	-webit-transform:skewY(-4deg); /*safari*/
+	transform:skewY(4deg); 
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:20px;
+}
 </style>
 
 </head>
 <body>
 	
-	<div class="slantedDivA"></div>	
+	<div class="ccc"><h1 class="bbb">Listen!</h1>
+	<p class="bbb">Here is the sample for create DIGONAL/SLANTING div in css.You can try it yourself.</p>
+	</div>	
 </body>
 </html>

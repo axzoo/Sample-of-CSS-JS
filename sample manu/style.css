@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+	background-color:#2E2E2E;
+}
+
+.top {
+    
+    text-align: left;
+    height: 70px;
+    line-height: -70px;    
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+	color:#C5A059;
+}
+
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+	.main-nav {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .main-nav a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .main-nav {
+        display: block;
+    }
+    
+    
+}
